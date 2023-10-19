@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-COMMERCE</title>
+    <link rel="stylesheet" href="produto.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+MaU9rZ3d+1Aml8l%2BYLwF4p9fdpSCWj0Iof7ua5tcLbFIEuJ" crossorigin="anonymous">
+    <link rel="icon" type="image/jpg" href="icone.jpg">
+</head>
+<body>
+    <header class="titulo">
+        <h1>MINHA LOJA 1.0</h1>
+    </header>
+
+    <main>
+        <div class="subtitulo">
+            <h2></h2>TELA DE CADASTRO<h2>
+            <span>CADASTRO DE PRODUTOS</span>
+        </div>
+        <div class="campos">
+            <div class="imputline">
+                <label for="Nomeprod">NOME DO PRODUTO</label>
+                <input type="text" id="Nomeprod" placeholder="Nome">
+            </div>
+            <div class="imputline">
+                <label for="Valorprod">VALOR DO PRODUTO</label>
+                <input type="text" id="Valorprod" placeholder="Valor">
+            </div>
+            <button onclick="produto.salvar()" class="buttom_add">SALVAR</button>
+            <button onclick="produto.cancelar()" class="buttom_exc">CANCELAR</button>
+        </div>
+
+        <table border= 1 cellspacing=0 cellpadding=20>
+            <thead>
+                <th>ID</th>
+                <th>NOME</th>
+                <th>VALOR</th>
+                <th>AÇÕES</th>
+            </thead>
+            <tbody id="insere"></tbody>
+        </table>
+    </main>
+  <footer>
+    <section id="contato">
+        <div class="container">
+            <h3>Entre em Contato</h3>
+            <p>Conecte-se comigo nas redes sociais ou entre em contato diretamente:</p>
+            <ul class="contact-links">
+                <li class="insta">
+                    <a href="https://www.instagram.com/mfdmc/" target="_blank">
+                        <i class="fab fa-instagram"></i> Instagram
+                    </a>
+                </li>
+                <li class="git">
+                    <a href="https://github.com/MiguelFelipe27" target="_blank">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                </li>
+                <li class="whats">
+                    <a href="https://api.whatsapp.com/send?phone=5543996890870&text=Ol%C3%A1%20Miguel!" target="_blank">
+                        <i class="fab fa-whatsapp"></i> WhatsApp
+                    </a>
+                </li>
+                <li class="link">
+                    <a href="https://www.linkedin.com/in/miguel-felipe-de-melo-cunha-14b228279/" target="_blank">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+  </footer>
+    <script src="obj.js"></script>  
+</body>
+</html>
