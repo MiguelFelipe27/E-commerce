@@ -34,8 +34,8 @@ body
 
 .campos
 {
-    background-color: rgba(0, 0, 0, 0.459);
-    color: white;
+    background-color: rgba(255, 255, 255, 0.459);
+    color: rgb(0, 0, 0);
     border: 3.5px solid rgb(255, 255, 255);
     border-radius: 0px;
     padding: 30px;
@@ -98,12 +98,12 @@ input
 
 table
 {
-    background-color: rgba(0, 0, 0, 0.459);
+    background-color: rgba(255, 255, 255, 0.459);
     border-collapse: 20px;
     width: 100%;
     margin-top: 20px;
-    border: 2px solid rgb(255, 255, 255);
-    color: white
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0)
 }
 
 img
